@@ -100,9 +100,8 @@ Example JSON Output:
 user_id = 1
 
 user_queries = [
-    ("Can you summarize this text?", {
-        "text": "Farmer John has lost his prize cow Bessie, and he needs to find her!"}),
-    ("Screenshot this and send it to my friend Danny?", {"bounding_box": (400, 800, 200, 1000)}),
+    ("Can you summarize this text?", {"text": "Farmer John has lost his prize cow Bessie, and he needs to find her!"}),
+    ("Screenshot this and send it to my friend Danny!", {"bounding_box": (400, 800, 200, 1000), "recipient": "Danny"}),
     ("What does this code do?", {})
 ]
 
