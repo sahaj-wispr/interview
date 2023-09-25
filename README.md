@@ -45,7 +45,11 @@ POST /functions
 
 Example Body:
 {
-    "query": "Summarize this article and send it to my friend Danny."
+    "query": "Summarize this article and send it to my friend Danny.",
+    "args": {
+        "text": "...",
+        "recipient": "Danny"
+    }
 }
 
 Example JSON Output:
