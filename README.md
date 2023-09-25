@@ -6,7 +6,8 @@ We've already accomplished much of the groundwork, transforming user queries int
 
 1. Authenticate an user.
 2. Retrieve a list of commands for a given user query.
-3. Execute the commands.
+3. Validate the commands.
+4. Execute the commands.
 
 You will be interacting with the Wispr backend, hosted at 
 ```
