@@ -79,7 +79,8 @@ Example Body:
     "args": {
         "text" : "...",
         ...
-    }
+    },
+    "original_query": "..."
 }
 
 Example JSON Output:
