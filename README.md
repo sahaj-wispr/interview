@@ -94,6 +94,8 @@ Example JSON Output:
 # Queries are structured in the form of:
 (query, args)
 
+user_id = 1
+
 user_queries = [
     ("Can you summarize this text?", {
         "text": "Farmer John has lost his prize cow Bessie, and he needs to find her!"}),
