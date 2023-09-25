@@ -54,15 +54,17 @@ Example JSON Output:
         {
             "name": "summarize",
             "args": {                
-                "url": "https://wispr-interview.ngrok.io/execute/summarize"
-            }
+                "text": "Farmer John has lost his prize cow Bessie, and he needs to find her!"
+            },
+            "execute_url": "https://wispr-interview.ngrok.io/execute/summarize"            
         },
         {
             "name": "send_article",
             "args": {                
                 "text": "summarize.output",
                 "recipient": "Danny"
-            }
+            },
+            "execute_url": "https://wispr-interview.ngrok.io/execute/send_article"
         }
     ]
 }
@@ -104,7 +106,7 @@ user_queries = [
 ]
 
 expected_outputs = [
-    "Farmer John has lost his prize cow Bessie, and he needs to find her!",
+    "Bessie's gone!",
     "https://wispr-interview.ngrok.io/assets/screenshot.png",
     "Invalid"
 ]
