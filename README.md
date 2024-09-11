@@ -1,6 +1,6 @@
 ## Introduction
 
-We, at Wispr, are building a neural-computer interface to streamline and accelerate the process of interacting with technology. Today, you're going to play an important part in that mission by building a mini-personal assistant! 
+We, at Wispr, are building a voice interface to streamline and accelerate the process of interacting with technology. Today, you're going to play an important part in that mission by building a mini-personal assistant! 
 
 We've already accomplished much of the groundwork, transforming user queries into actionable commands. Your task today involves three key objectives:
 
