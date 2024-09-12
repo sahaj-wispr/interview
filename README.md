@@ -11,7 +11,7 @@ We've already accomplished much of the groundwork, transforming user queries int
 
 You will be interacting with the Wispr backend, hosted at 
 ```
-https://1040-99-0-87-50.ngrok-free.app
+https://428c-99-0-87-50.ngrok-free.app
 ```
 
 It is also important to note that, today, we will be interacting with two objects:
