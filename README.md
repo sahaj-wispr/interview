@@ -60,7 +60,7 @@ Example JSON Output:
             "args": {                
                 "text": "Farmer John has lost his prize cow Bessie, and he needs to find her!"
             },
-            "execute_url": "https://wispr-interview.ngrok.io/execute/summarize"            
+            "execute_url": "/execute/summarize"            
         },
         {
             "name": "send_article",
@@ -68,7 +68,7 @@ Example JSON Output:
                 "text": "summarize.output",
                 "recipient": "Danny"
             },
-            "execute_url": "https://wispr-interview.ngrok.io/execute/send_article"
+            "execute_url": "/execute/send_article"
         }
     ]
 }
